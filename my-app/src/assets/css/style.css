@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    background-color: #fff;
+}
+
+#device-add{
+    width: 70%;
+}
+
+#root{
+    background-color: #fff; 
+}
+
+#main{
+    margin-top: 200px;
+}
+
+.border {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+span.required {
+    color: red;
+    margin-left: 5px;
+  }
+
