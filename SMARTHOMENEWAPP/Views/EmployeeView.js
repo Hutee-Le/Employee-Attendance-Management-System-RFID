@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, TouchableOpacity, StatusBar, Image, Text, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { FlatGrid } from 'react-native-super-grid';
-const baseUrl = 'http://10.106.23.13:5555';
+const baseUrl = 'http://10.106.25.156:5555';
 const Employee = () => {
   const imageUrl = `${baseUrl}/images/`;
   const [employees, setEmployees] = useState([]);

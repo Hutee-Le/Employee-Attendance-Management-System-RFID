@@ -26,7 +26,7 @@ function HomeStackScreen({ navigation }) {
       <HomeStack.Screen name='Home' component={Home} options={{
         title: 'Home',
         headerLeft: () => (
-          <Icon.Button name="ios-menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
+          <Icon.Button name="menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
         ),
       }} />
       <HomeStack.Screen name='RoomDetail' component={RoomDetail} options={{ title: 'Room Detail' }} />
@@ -48,7 +48,7 @@ function EmployeeStackScreen({ navigation }) {
       <EmployeeStack.Screen name='Employee' component={Employee} options={{
         title: 'Employee',
         headerLeft: () => (
-          <Icon.Button name="ios-menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
+          <Icon.Button name="menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
         ),
       }} />
       <EmployeeStack.Screen name='EmployeeDetail' component={EmployeeDetail} options={{
@@ -71,7 +71,7 @@ function SettingStackScreen({ navigation }) {
       <SettingStack.Screen name='Setting' component={Setting} options={{
         title: 'Setting',
         headerLeft: () => (
-          <Icon.Button name="ios-menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
+          <Icon.Button name="menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
         ),
       }} />
     </SettingStack.Navigator>
@@ -91,7 +91,7 @@ function SupportStackScreen({ navigation }) {
       <SupportStack.Screen name='Support' component={Support} options={{
         title: 'Support',
         headerLeft: () => (
-          <Icon.Button name="ios-menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
+          <Icon.Button name="menu" size={25} style={styles.icon} backgroundColor="#0d727b" onPress={() => navigation.openDrawer()}></Icon.Button>
         ),
       }} />
     </SupportStack.Navigator>
@@ -113,7 +113,7 @@ function DrawerNavigatorScreen() {
         options={{
           title: 'Home',
           drawerIcon: ({ focused, size }) => (
-            <Icon name="ios-home" size={size} color={focused ? '#0d727b' : 'gray'} />
+            <Icon name="home" size={size} color={focused ? '#0d727b' : 'gray'} />
           ),
           headerShown: false
         }}
@@ -124,7 +124,7 @@ function DrawerNavigatorScreen() {
         options={{
           title: 'Employee',
           drawerIcon: ({ focused, size }) => (
-            <Icon name="ios-people" size={size} color={focused ? '#0d727b' : 'gray'} />
+            <Icon name="people" size={size} color={focused ? '#0d727b' : 'gray'} />
           ),
           headerShown: false
         }}
@@ -146,7 +146,7 @@ function DrawerNavigatorScreen() {
         options={{
           title: 'Support',
           drawerIcon: ({ focused, size }) => (
-            <Icon name="ios-help-circle" size={size} color={focused ? '#0d727b' : 'gray'} />
+            <Icon name="help-circle" size={size} color={focused ? '#0d727b' : 'gray'} />
           ),
           headerShown: false
         }}

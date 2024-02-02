@@ -3,7 +3,7 @@ import { StyleSheet, Image, Text, View, TouchableOpacity } from 'react-native';
 import moment from 'moment';
 import init from 'react_native_mqtt';
 import AsyncStorage from "@react-native-async-storage/async-storage";
-const baseUrl = 'http://10.106.23.13:5555';
+const baseUrl = 'http://10.106.25.156:5555';
 
 init({
   size: 10000,
