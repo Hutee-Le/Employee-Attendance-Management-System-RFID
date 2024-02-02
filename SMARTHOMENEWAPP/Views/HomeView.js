@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View, Text, TouchableOpacity, StatusBar, StyleSheet, Image } from "react-native";
 import { FlatGrid } from 'react-native-super-grid';
 import Icon from 'react-native-vector-icons/FontAwesome';
-const baseUrl = 'http://10.106.25.156:5555';
+import baseUrl from '../config/config';
 
 const Home = ({navigation}) => {
   const [rooms, setRooms] = useState([]);

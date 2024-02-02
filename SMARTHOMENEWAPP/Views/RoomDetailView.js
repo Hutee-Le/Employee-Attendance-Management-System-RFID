@@ -5,7 +5,7 @@ import { Switch } from "react-native-switch";
 import IconNV from 'react-native-vector-icons/FontAwesome5';
 import init from 'react_native_mqtt';
 import AsyncStorage from "@react-native-async-storage/async-storage";
-const baseUrl = 'http://10.106.25.156:5555';
+import baseUrl from '../config/config';
 
 init({
   size: 10000,
